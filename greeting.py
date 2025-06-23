@@ -1,6 +1,6 @@
 def greet(name):
     message = 'Hello, ' + name + '-san!'
-    print(message)
+
     
 from datetime import datetime
 
@@ -13,6 +13,8 @@ def greet(name):
     else:
         message = 'Good evening'
     print(message + "," + name +  "-san!")
+    print(message)
+    
 
 
 greet("Inoue")
